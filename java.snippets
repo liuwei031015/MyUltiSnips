@@ -1,0 +1,14 @@
+
+snippet toString|generate "generate toString function"
+@Override
+public String toString() {
+	return "`!p snip.rv = snip.basename`{" +
+			"${1:field}='" + field + '\'' +
+			'}';
+}
+endsnippet
+
+snippet const "Java static final filed"
+${1:public} static final ${2:int} ${3:key} = ${4:0};
+endsnippet
+
